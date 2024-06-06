@@ -1,0 +1,17 @@
+#wrapper{
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+}
+#sectionA{
+    background-color: aqua;
+    width: 33%;
+}
+#sectionB{
+    background-color: rgb(255, 179, 0);
+    width: 33%;
+}
+#sectionC{
+    background-color: rgb(114, 15, 96);
+    width: 33%;
+}

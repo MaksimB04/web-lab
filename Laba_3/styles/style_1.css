@@ -1,0 +1,48 @@
+body {
+    background: gray;
+  }
+  #firstDiv {
+    background: blue;
+    width: 100px;
+    height: 100px;
+  }
+  #secondDiv {
+    background: yellow;
+    width: 100px;
+    height: 100px;
+  }
+  .absolutePositionExample {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  .relativePositionExample {
+    position: relative;
+    top: 20px;
+    left: 20px;
+  }
+  .mountain_text{
+    position: absolute;
+    color:rgb(20, 66, 76);
+    z-index: 0;
+    padding-left: 40px;
+  }
+  .mountain{
+    position: relative;
+    z-index: -1;
+  }
+  .rock_climbing_block {
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 80%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .rock_climbing{
+    float: left;
+    margin-right: 10px;
+  }
+  .rock_climbing_text{
+    margin: 0px;
+  }
